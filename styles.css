@@ -1,0 +1,146 @@
+/* This code represents a change in all elements*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  background-color: hsl(211, 68%, 94%);
+}
+
+.section-notification {
+  margin: 5rem auto;
+  width: 80rem;
+  padding: 3rem;
+  border-radius: 18px;
+  background-color: white;
+}
+
+.navi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.notif-title {
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.count_notif {
+  background-color: hsl(219, 85%, 26%);
+  padding: 0.3rem 1.4rem;
+  border-radius: 6px;
+  color: white;
+  font-size: 1.65rem;
+  margin-left: 1rem;
+}
+
+.mark_as_read {
+  color: hsl(219, 85%, 26%);
+  cursor: pointer;
+  transform: translateY(0.2rem);
+}
+
+.avatar {
+  width: 6rem;
+}
+
+.notif {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+
+
+.notif_pic_pic {
+  width: 6rem;
+  position: absolute;
+  right: 0;
+  top: 2rem;
+}
+
+.noti-message-message {
+  margin: 2rem;
+  padding: 2rem;
+  border: solid 2px hsl(219, 14%, 63%);
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+
+.noti-message-message:hover {
+  border: solid 2px hsl(205, 33%, 90%);
+  background-color: hsl(205, 33%, 90%);
+}
+
+.red-dot {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 100%;
+  background-color: hsl(1, 90%, 64%);
+  color: hsl(1, 90%, 64%);
+  margin: 0.5rem;
+  display: inline-block;
+  transform: translateY(40%);
+}
+
+.text_notification {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.time_notification {
+  color: hsl(219, 14%, 63%);
+}
+
+.link {
+  transition: all 0.3s;
+
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: hsl(219, 85%, 26%);
+}
+
+.link:active {
+  color: hsl(219, 85%, 26%);
+}
+
+
+.position-relative {
+  position: relative;
+}
+
+/* Footer  */
+footer{
+  text-align: center;
+}
+/* Javascript  */
+
+.mark_as_read-read {
+  color: hsl(219, 14%, 63%);
+  background-color: black;
+}
+
+.unread_notification {
+  background-color: hsl(211, 68%, 94%);
+}
+
+.hidden {
+  display: none;
+}
